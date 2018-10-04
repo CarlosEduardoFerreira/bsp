@@ -1,0 +1,6 @@
+{
+    "name": "b1104279",
+    "require": {
+        "jansenfelipe/cnpj-gratis": "dev-master"
+    }
+}
