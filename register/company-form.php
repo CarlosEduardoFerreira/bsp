@@ -57,6 +57,7 @@
                         complete: function (xhr) {
                             // Aqui recuperamos o json retornado
                             response = xhr.responseJSON;
+                            alert(response);
                             // Na documentação desta API tem esse campo status que retorna "OK" caso a consulta tenha sido efetuada com sucesso                                
                             if (response.status == 'OK') {
                                 // Agora preenchemos os campos com os valores retornados
